@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <attr name="speed" format="float" />  
+	<attr name="over" format="boolean"/>
+	<attr name="background" format="color"/>
+    <declare-styleable name="clockview1">  
+        <attr name="speed" />  
+		<attr name="over"/>
+		<attr name="background"/>
+    </declare-styleable>  
+</resources>  

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/com.clock.clock"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fitsSystemWindows="true"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<com.clock.clock.clockview
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			custom:speed="0.5"
+			custom:over="false"
+			android:id="@+id/mainccc1"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:orientation="vertical">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="开启悬浮窗"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:id="@+id/switch1"
+				android:onClick="c"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="关闭"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:id="@+id/finish"
+				android:onClick="c"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:text="退出"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:id="@+id/exit"
+				android:onClick="c"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
+
+</LinearLayout>
+
